@@ -15,12 +15,13 @@ function Charmander() {
 	this.beats = 'bulbasaur'
 }
 
-Pokemon.prototype.winner = function(choiceOne, choiceTwo) {
-	if(choiceOne.type === choiceTwo.type)
+Pokemon.prototype.decideWinnerOf = function(gestureOne, gestureTwo) {
+	if(gestureOne.type === gestureTwo.type)
 		return "Draw";
-	else if (choiceOne.beats === choiceTwo.type)
-			return choiceOne.type;
+	else if (gestureOne.beats === gestureTwo.type)
+			return gestureOne.type;
 	else 
-			return choiceTwo.type;
-}
+			return gestureTwo.type;
+		
+};
 		

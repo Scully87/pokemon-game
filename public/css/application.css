@@ -17,13 +17,13 @@ body {
 	margin-right: auto;
 	font-family: "Pokemon Solid";
 	color: yellow;
+  height: 50px;
   text-shadow: -10px 0 blue, 0 3px blue, 3px 0 blue, 0 -3px blue;
 	font-size: 120px;
 	text-align: center;
 }
 
 #weapons {
-	padding-top: 70px;
 	position: center;
 	width: 100%;
 	margin-left: 10%;
@@ -45,6 +45,34 @@ body {
 	width: 25%;
 	height: 45%;
 }
+
+.player_choice {
+  padding-top: 130px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Pokemon Solid";
+  color: yellow;
+  text-shadow: -5px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+  font-size: 32px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.opp_choice {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  font-family: "Pokemon Solid";
+  color: yellow;
+  text-shadow: -5px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+  font-size: 32px;
+  text-align: right;
+}
+
+
+
 
 
 
