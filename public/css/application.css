@@ -6,7 +6,7 @@ html, body{
 
 body {
 	position: fixed;
-	background-image: url("../images/background4.jpg");
+	background-image: url("/images/background4.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -23,27 +23,27 @@ body {
 }
 
 #weapons {
-	padding-top: 10px;
+	padding-top: 70px;
 	position: center;
 	width: 100%;
 	margin-left: 10%;
 }
 	
 #bulbasaur {
-	width: 23%;
-	height: 30%;
+	width: 25%;
+	height: 40%;
 	padding-right: 30px;
 }
 
 #squirtle {
 	width: 25%;
-	height: 35%;
+	height: 45%;
 	padding-right: 10px;
 }
 
 #charmander {
 	width: 25%;
-	height: 35%;
+	height: 45%;
 }
 
 

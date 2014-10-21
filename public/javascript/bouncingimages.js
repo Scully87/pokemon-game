@@ -16,9 +16,9 @@ bouncingImages = new Object();
 // CONFIGURATION:
 
 bouncingImages.imgCount = 10;
-bouncingImages.imgWidth = 60;
-bouncingImages.imgHeight = 60;
-bouncingImages.imgSrc = './images/pokeball.jpg';
+bouncingImages.imgWidth = 50;
+bouncingImages.imgHeight = 50;
+bouncingImages.imgSrc = 'images/pokeball.jpg';
 
 bouncingImages.frameRate = 30;
 
