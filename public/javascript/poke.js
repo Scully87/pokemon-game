@@ -16,7 +16,11 @@ function Charmander() {
 }
 
 Pokemon.prototype.winner = function(choiceOne, choiceTwo) {
-	if(choiceOne.beats === choiceTwo.type) return 'You Win!';
-	if(choiceTwo.beats === choiceOne.type) return 'You Lose!';
-	if(choiceOne.type === choiceTwo.type) return "It's a Draw!";
-};
+	if(choiceOne.type === choiceTwo.type)
+		return "Draw";
+	else if (choiceOne.beats === choiceTwo.type)
+			return choiceOne.type;
+	else 
+			return choiceTwo.type;
+}
+		
