@@ -18,9 +18,106 @@ body {
 	font-family: "Pokemon Solid";
 	color: yellow;
   height: 50px;
-  text-shadow: -10px 0 blue, 0 3px blue, 3px 0 blue, 0 -3px blue;
 	font-size: 120px;
 	text-align: center;
+
+text-shadow:
+-moz-animation-name:bounce_blurringTextG;
+-moz-animation-duration: 5s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-animation-name:bounce_blurringTextG;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-animation-name:bounce_blurringTextG;
+-ms-animation-duration: 2.5s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-animation-name:bounce_blurringTextG;
+-o-animation-duration: 2.5s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+animation-name:bounce_blurringTextG;
+animation-duration: 2.5s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+@-moz-keyframes bounce_blurringTextG{
+0%{
+text-shadow: blue 0 0 25px;
+}
+
+50%{
+text-shadow: blue 0 0 400px;
+}
+
+100%{
+text-shadow: blue 0 0 25px;
+}
+
+}
+
+@-webkit-keyframes bounce_blurringTextG{
+0%{
+text-shadow: blue 0 0 25px;
+}
+
+50%{
+text-shadow: blue 0 0 400px;
+}
+
+100%{
+text-shadow: blue 0 0 25px;
+}
+
+}
+
+@-ms-keyframes bounce_blurringTextG{
+0%{
+text-shadow: blue 0 0 25px;
+}
+
+50%{
+text-shadow: blue 0 0 400px;
+}
+
+100%{
+text-shadow: blue 0 0 25px;
+}
+
+}
+
+@-o-keyframes bounce_blurringTextG{
+0%{
+text-shadow: blue 0 0 25px;
+}
+
+50%{
+text-shadow: blue 0 0 400px;
+}
+
+100%{
+text-shadow: blue 0 0 25px;
+}
+
+}
+
+@keyframes bounce_blurringTextG{
+0%{
+text-shadow: blue 0 0 25px;
+}
+
+50%{
+text-shadow: blue 0 0 400px;
+}
+
+100%{
+text-shadow: blue 0 0 25px;
+}
+
+}
 }
 
 #weapons {
@@ -33,6 +130,7 @@ body {
 	width: 25%;
 	height: 40%;
 	padding-right: 30px;
+  padding-left: 120px;
 }
 
 #squirtle {
@@ -76,15 +174,21 @@ body {
 
 
 
+#charmander {
+  -webkit-animation: animation 2500ms linear infinite both;
+  animation: animation 2500ms linear infinite both;
+}
 
 
-
-
-
-
-#charmander, #bulbasaur, #squirtle {
+#bulbasaur{
   -webkit-animation: animation 1500ms linear infinite both;
   animation: animation 1500ms linear infinite both;
+}
+
+
+#squirtle {
+  -webkit-animation: animation 3900ms linear infinite both;
+  animation: animation 3900ms linear infinite both;
 }
 
 @-webkit-keyframes animation { 

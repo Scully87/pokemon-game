@@ -15,15 +15,15 @@ bouncingImages = new Object();
 
 // CONFIGURATION:
 
-bouncingImages.imgCount = 10;
+bouncingImages.imgCount = 12;
 bouncingImages.imgWidth = 50;
 bouncingImages.imgHeight = 50;
 bouncingImages.imgSrc = 'images/pokeball.jpg';
 
-bouncingImages.frameRate = 30;
+bouncingImages.frameRate = 100;
 
-bouncingImages.minRandomSpeed = 2;
-bouncingImages.maxRandomSpeed = 8;
+bouncingImages.minRandomSpeed = 0.1;
+bouncingImages.maxRandomSpeed = 15;
 
 // MAIN:
 
