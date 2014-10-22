@@ -11,7 +11,7 @@ var game = new Pokemon;
 
 		var andTheWinnerIs = function(winner) {
 			if(winner === 'Draw')
-        $('#header').text("Draw!, " + playerGesture.type + "'s"); 
+        $('#header').text("Draw! 2x " + playerGesture.type + "'s"); 
       if(winner === playerGesture.type)
         $('#header').text(winner + "! " +"Wins!");
       if(winner === computerGesture.type)
