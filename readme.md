@@ -7,7 +7,7 @@
 
 <div align="center">
 	<a href="http://guarded-eyrie-8904.herokuapp.com/">
-	<img src="http://www.pudgybunny.com/images/pokemon1.gif" width="800"></a><br>
-	<h3>click image for link to game</h3>
-	<h4>turn sound up LOUD!!</h4>
+	<img src="https://utstatic.a.cdnify.io/wp-content/uploads/2012/11/Pokemon.jpg" width="800"></a><br>
+	<h2>click image for link to game</h2>
+	<h2>turn sound up <strong>LOUD!!</strong></h2>
 </div>
