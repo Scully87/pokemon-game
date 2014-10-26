@@ -11,3 +11,11 @@
 	<h2>click image for link to game</h2>
 	<h2>turn sound up <strong>LOUD!!</strong></h2>
 </div>
+
+###Technologies Used:
+
+  + HTML
+  + CSS
+  + Javascript
+  + Sinatra
+  + Github API
