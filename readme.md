@@ -1,11 +1,13 @@
 Pokemon Game
 =========================
-	###Re-Created a Player vs Computer style game of 'rock, paper, scissors' using Pokemon characters.
+###Re-Created a Player vs Computer style game of 'rock, paper, scissors' using Pokemon characters.
 
-
-
+<div align='center'>
 	<a href="http://guarded-eyrie-8904.herokuapp.com/">
 	<img src="https://utstatic.a.cdnify.io/wp-content/uploads/2012/11/Pokemon.jpg" width="800">
+</a>
+</div>
+
 ####Click image for Link to game (soundtrack included)
 
 ####Technologies Used:
