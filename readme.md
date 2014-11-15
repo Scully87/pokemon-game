@@ -17,6 +17,7 @@ Pokemon Game
   - Sinatra
   - HTML
   - CSS
+  - Heroku
 
 #####To Do List:
   - [x] Create functionality for player
