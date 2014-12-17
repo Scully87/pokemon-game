@@ -29,7 +29,7 @@ Pokemon Game
 How to use
 ----------
 
-[Click Here](http://guarded-eyrie-8904.herokuapp.com/) for link to site
+[Click Here](http://pokemon-rps.herokuapp.com/) for link to site
 
 Clone the repository:
 ```shell
